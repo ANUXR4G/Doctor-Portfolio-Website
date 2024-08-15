@@ -21,7 +21,7 @@ const Header = () => {
     <nav className="w-full bg-white border-b shadow-lg">
       <div className="container flex items-center justify-between h-24 px-4 mx-auto text-body">
         {/* Logo */}
-        <img src={logo} alt="logo" className="w-24" />
+        <img src={logo} alt="logo" className="w-20" />
         {/* Desktop Navigation */}
         <ul className="hidden md:flex">
           {navItems.map((item) => (
